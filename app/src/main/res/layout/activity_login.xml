@@ -31,13 +31,20 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:id="@+id/logo_krayrr"
+                android:src="@drawable/krayrr_logo"/>
 
                 <AutoCompleteTextView
                     android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="42dp"
-                    android:layout_marginTop="115dp"
+                    android:layout_marginTop="50dp"
                     android:background="@drawable/curve"
+                    android:textColorHint="@android:color/black"
                     android:ems="10"
                     android:hint="@string/email"
                     android:inputType="textEmailAddress"
@@ -56,6 +63,7 @@
                     android:layout_height="42dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/curve"
+                    android:textColorHint="@android:color/black"
                     android:ems="10"
                     android:hint="@string/password"
                     android:inputType="textPassword"
@@ -96,7 +104,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/forgot_password"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:textStyle="bold"
                     android:textSize="17sp" />
 
@@ -105,7 +113,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="60dp"
                     android:text="@string/create_account_now"
-                    android:textColor="@android:color/white"
+                    android:textColor="@android:color/black"
                     android:textSize="17sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -117,7 +125,7 @@
                 android:layout_marginStart="120dp"
                 android:layout_marginTop="100dp"
                 android:text="@string/u00a9_2018_krayrr"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/black" />
 
         </LinearLayout>
     </ScrollView>
