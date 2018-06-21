@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,21 +9,24 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".LoginActivity">
+    android:background="#eeeeee"
+    tools:context=".Activity.LoginActivity">
 
     <!-- Login progress -->
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
         android:layout_marginBottom="8dp"
         android:visibility="gone" />
 
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:id="@+id/email_login_form"
@@ -33,11 +36,11 @@
             android:contentDescription="@string/app_name">
 
             <ImageView
-                android:layout_width="200dp"
-                android:layout_height="200dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:id="@+id/logo_krayrr"
-                android:src="@drawable/krayrr_logo"/>
+                android:src="@drawable/ic_krayrr_logo"/>
 
                 <AutoCompleteTextView
                     android:id="@+id/email"
@@ -45,7 +48,6 @@
                     android:layout_height="42dp"
                     android:layout_marginTop="50dp"
                     android:background="@drawable/curve"
-                    android:textColorHint="@android:color/black"
                     android:ems="10"
                     android:hint="@string/email"
                     android:inputType="textEmailAddress"
@@ -64,7 +66,6 @@
                     android:layout_height="42dp"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/curve"
-                    android:textColorHint="@android:color/black"
                     android:ems="10"
                     android:hint="@string/password"
                     android:inputType="textPassword"
@@ -90,33 +91,31 @@
                 android:background="@drawable/curve_button"
                 android:text="@string/start_RIDING"
                 android:textColor="@android:color/white"
-                android:textSize="18sp"
                 tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteX="148dp"
                 tools:layout_editor_absoluteY="318dp" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
+                android:layout_margin="@dimen/activity_vertical_margin"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="match_parent"
                     android:text="@string/forgot_password"
-                    android:textColor="@android:color/black"
-                    android:textStyle="bold"
-                    android:textSize="17sp" />
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="@dimen/activity_vertical_margin" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="110dp"
                     android:text="@string/create_account_now"
-                    android:textColor="@android:color/black"
-                    android:textSize="17sp"
-                    android:textStyle="bold" />
+                    android:textColor="@android:color/holo_red_light"
+                    android:textSize="@dimen/activity_vertical_margin"
+                     />
             </LinearLayout>
 
             <TextView
@@ -130,4 +129,4 @@
 
         </LinearLayout>
     </ScrollView>
-</LinearLayout>
+</RelativeLayout>
