@@ -32,6 +32,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.krayrr.Global;
 import com.krayrr.Helper.API;
 import com.krayrr.R;
 import com.krayrr.Helper.SQLiteHandler;
@@ -51,6 +52,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 import static android.Manifest.permission.READ_CONTACTS;
@@ -73,8 +75,9 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
     private EditText mPasswordView;
     private View mProgressView;
     private View mLoginFormView;
+    HashMap<String, String> user;
 
-    SQLiteHandler sqLiteHandler;
+    SQLiteHandler db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,7 +86,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_login);
         // Set up the login form.
-        sqLiteHandler = new SQLiteHandler(this);
+        db = new SQLiteHandler(this);
+     //   getData();
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
         session = new SessionManager(getApplicationContext());
@@ -109,6 +113,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
+                Global.hideKeyboard(LoginActivity.this);
                 attemptLogin();
             }
         });
@@ -116,6 +121,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
     }
+
 
     private void populateAutoComplete() {
         if (!mayRequestContacts()) {
@@ -416,10 +422,11 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                             showProgress(false);
                             Snackbar.make(mEmailView, jsonObject.getString("login_error_msg"), Snackbar.LENGTH_LONG).show();
                         }}else {
-                            sqLiteHandler.addUser(jsonObject.getString("username"),jsonObject.getString("user_id"),
-                                    jsonObject.getString("login_type"),jsonObject.getString("email"),
+                            db.addUser(
+                                    jsonObject.getString("username"),   jsonObject.getString("user_id"),
+                                    jsonObject.getString("login_type"), jsonObject.getString("email"),
                                     jsonObject.getString("mobile_number"),jsonObject.getString("car_registration_no"),
-                                    jsonObject.getString("fuel_type"),jsonObject.getString("car_no"),
+                                    jsonObject.getString("fuel_type"),  jsonObject.getString("car_no"),
                                     jsonObject.getString("registration_year")
                             );
                         session.setLogin(true);

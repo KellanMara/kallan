@@ -18,12 +18,14 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.krayrr.Activity.Campaigndetail;
 import com.krayrr.Activity.LoginActivity;
+import com.krayrr.Global;
 import com.krayrr.Helper.API;
 import com.krayrr.Helper.AppController;
 import com.krayrr.Helper.SessionManager;
@@ -94,7 +96,7 @@ public class HomeFragment extends Fragment {
         // Tag used to cancel the request
         String tag_string_req = "req_dashboard";
 
-        StringRequest strReq = new StringRequest(Request.Method.GET, API.CampaignUrl, new Response.Listener<String>() {
+        StringRequest strReq = new StringRequest(Request.Method.POST, API.CampaignUrl, new Response.Listener<String>() {
 
             @Override
             public void onResponse(String response) {
@@ -205,7 +207,16 @@ public class HomeFragment extends Fragment {
             public void onErrorResponse(VolleyError error) {
 
             }
-        });
+        }){@Override
+        protected Map<String, String> getParams() throws AuthFailureError {
+
+            Map<String, String>  params = new HashMap<String, String>();
+
+            params.put("user_id", Global.uid);
+         //   params.put("token", notificationToken);
+
+            return params;
+        }};
 
         // Adding request to request queue
         strReq.setShouldCache(false);

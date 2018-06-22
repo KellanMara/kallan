@@ -12,6 +12,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -19,14 +20,20 @@ import com.google.android.gms.maps.GoogleMap;
 import com.krayrr.Fragement.DashboardFragment;
 import com.krayrr.Fragement.HomeFragment;
 import com.krayrr.Fragement.NotificationsFragment;
+import com.krayrr.Global;
+import com.krayrr.Helper.SQLiteHandler;
 import com.krayrr.R;
 import com.krayrr.Helper.SessionManager;
+
+import java.util.HashMap;
 
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, DashboardFragment.OnFragmentInteractionListener, HomeFragment.OnFragmentInteractionListener, NotificationsFragment.OnFragmentInteractionListener {
     private GoogleMap mMap;
     private SessionManager session;
+    SQLiteHandler db;
+    HashMap<String, String> user;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -52,6 +59,9 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        db=new SQLiteHandler(this);
+        getDBData();
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -148,4 +158,28 @@ public class MainActivity extends AppCompatActivity
     public void onFragmentInteraction(Uri uri) {
 
     }
+
+    private void getDBData() {
+        user = db.getUserDetails();
+      //  Global.id = user.get("id");
+      //  Log.d("VAr",Global.id);
+        Global.uid  = user.get("uid");
+        Log.d("VAr",Global.uid);
+        Global.ltype  = user.get("ltype");
+        Log.d("VAr",Global.ltype);
+        Global.email  = user.get("email");
+        Log.d("VAr",Global.email);
+        Global.mobile = user.get("mobile");
+        Log.d("VAr",Global.mobile);
+        Global.username = user.get("username");
+        Log.d("VAr",Global.username);
+        Global.carregno = user.get("carregno");
+        Log.d("VAr",Global.carregno);
+        Global.fueltype = user.get("fueltype");
+        Log.d("VAr",Global.fueltype);
+        Global.carno    = user.get("carno");
+        Log.d("VAr",Global.carno);
+
+    }
+
 }

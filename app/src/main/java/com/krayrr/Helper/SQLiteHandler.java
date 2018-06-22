@@ -97,20 +97,23 @@ public class SQLiteHandler extends SQLiteOpenHelper {
      * */
     public HashMap<String, String> getUserDetails() {
         HashMap<String, String> user = new HashMap<String, String>();
-        String selectQuery = "SELECT  * FROM " + TABLE_USER;
+        String selectQuery = "SELECT * FROM " + TABLE_USER;
 
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
         // Move to first row
         cursor.moveToFirst();
         if (cursor.getCount() > 0) {
-            user.put("customer_id", cursor.getString(1));
-            user.put("agent_id", cursor.getString(2));
+          //  user.put("id", cursor.getString(1));
+            user.put("uid", cursor.getString(1));
+            user.put("ltype", cursor.getString(2));
             user.put("email", cursor.getString(3));
             user.put("mobile", cursor.getString(4));
-            user.put("token", cursor.getString(5));
-            user.put("created_at", cursor.getString(6));
-
+            user.put("username", cursor.getString(5));
+            user.put("carregno", cursor.getString(6));
+            user.put("fueltype", cursor.getString(7));
+            user.put("carno", cursor.getString(8));
+            user.put("created_at", cursor.getString(9));
         }
         cursor.close();
         db.close();
