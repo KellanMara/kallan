@@ -100,12 +100,12 @@ public class HomeFragment extends Fragment {
 
             @Override
             public void onResponse(String response) {
-                response = "{\"campaigns\":{\"campaign_data\":[{\"campaign_id\":\"1\",\"client_id\":\"1\",\"campaign_name\":\"Campaign Demo\",\"camp_start_date\":\"2018-05-26\",\"camp_end_date\":\"2018-06-25\",\"campaign_purpose\":\"Campaign Testing\",\"status\":\"active\"},{\"campaign_id\":\"2\",\"client_id\":\"1\",\"campaign_name\":\"Campaign Demo 2\",\"camp_start_date\":\"2018-06-01\",\"camp_end_date\":\"2018-06-15\",\"campaign_purpose\":\"Testing two\",\"status\":\"active\"}],\"campaign_images\":[{\"camp_img_id\":\"3\",\"campaign_id\":\"2\",\"img_name\":\"1_2_P5m0EU_0.jpg\",\"image_link\":\"http:\\/\\/localhost\\/krayrr\\/uploads\\/campaign_media\\/1\\/1_2_P5m0EU_0.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"4\",\"campaign_id\":\"2\",\"img_name\":\"1_2_P5m0EU_1.jpg\",\"image_link\":\"http:\\/\\/localhost\\/krayrr\\/uploads\\/campaign_media\\/1\\/1_2_P5m0EU_1.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"5\",\"campaign_id\":\"1\",\"img_name\":\"1_1_8Ej6qr_0.jpg\",\"image_link\":\"http:\\/\\/localhost\\/krayrr\\/uploads\\/campaign_media\\/1\\/1_1_8Ej6qr_0.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"6\",\"campaign_id\":\"1\",\"img_name\":\"1_1_8Ej6qr_1.jpg\",\"image_link\":\"http:\\/\\/localhost\\/krayrr\\/uploads\\/campaign_media\\/1\\/1_1_8Ej6qr_1.jpg\",\"status\":\"active\"}]}}";
+                response = "{\"campaign_data\":[{\"campaign_id\":\"1\",\"client_id\":\"1\",\"campaign_name\":\"Campaign Demo\",\"camp_start_date\":\"2018-07-01\",\"camp_end_date\":\"2018-07-30\",\"campaign_purpose\":\"Test Campaign\",\"status\":\"active\"},{\"campaign_id\":\"2\",\"client_id\":\"1\",\"campaign_name\":\"Campaign Demo 2\",\"camp_start_date\":\"2018-08-01\",\"camp_end_date\":\"2018-08-30\",\"campaign_purpose\":\"Test Campaign 2\",\"status\":\"active\"}],\"campaign_images\":[{\"camp_img_id\":\"1\",\"campaign_id\":\"1\",\"img_name\":\"1_1_5y8ES_0.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_1_5y8ES_0.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"2\",\"campaign_id\":\"1\",\"img_name\":\"1_1_5y8ES_1.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_1_5y8ES_1.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"3\",\"campaign_id\":\"2\",\"img_name\":\"1_2_NdeRp_0.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_2_NdeRp_0.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"4\",\"campaign_id\":\"2\",\"img_name\":\"1_2_NdeRp_1.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_2_NdeRp_1.jpg\",\"status\":\"active\"}]}";
                 if (!response.equals("\"Session Not Login\"")){
                     try {
                         JSONObject resp = new JSONObject(response);
-                        JSONObject object =resp.getJSONObject("campaigns");
-                        JSONArray jsonArray=object.getJSONArray("campaign_data");
+                       // JSONObject object =resp.getJSONObject("campaigns");
+                        JSONArray jsonArray=resp.getJSONArray("campaign_data");
                         for (int i = 0 ; i < jsonArray.length() ; i++){
                             JSONObject jsonObject =jsonArray.getJSONObject(i);
                             CampaignModel model=new CampaignModel();
@@ -118,7 +118,7 @@ public class HomeFragment extends Fragment {
                             model.purpose = jsonObject.getString("campaign_purpose");
                             model.status = jsonObject.getString("status");
 
-                            JSONArray imgArray = object.getJSONArray("campaign_images");
+                           /* JSONArray imgArray = object.getJSONArray("campaign_images");
                             for (int y = 0 ; y < imgArray.length() ; y++){
                                 JSONObject jsonObject1 =imgArray.getJSONObject(y);
                                 model.camp_img_id = jsonObject1.getString("campaign_id");
@@ -126,7 +126,7 @@ public class HomeFragment extends Fragment {
                                     model.image_link=jsonObject1.getString("image_link");
                                     Log.d("image_link",model.image_link);
                                 }
-                               }
+                               }*/
                             models.add(model);
                         }
                     } catch (JSONException e) {
@@ -176,7 +176,9 @@ public class HomeFragment extends Fragment {
                         holder1.image.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {
-                                startActivity(new Intent(getActivity(),Campaigndetail.class ));
+                             Intent intent=new Intent(getActivity(),Campaigndetail.class);
+                             intent.putExtra("Cid",current.campid);
+                             startActivity(intent);
                             }
                         });
 
@@ -213,7 +215,8 @@ public class HomeFragment extends Fragment {
             Map<String, String>  params = new HashMap<String, String>();
 
             params.put("user_id", Global.uid);
-         //   params.put("token", notificationToken);
+            params.put("session_id", Global.Sessionid);
+            //   params.put("token", notificationToken);
 
             return params;
         }};

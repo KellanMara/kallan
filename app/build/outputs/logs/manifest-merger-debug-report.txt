@@ -4,31 +4,31 @@ ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.x
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:2:1-56:12
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:2:1-56:12
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:2:1-56:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\1c56777d0f4f4a8431485f81c6073c85\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\314b047ba668a9eab40eebb1204a4fc3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c5e28b07bb5fd95bff0eedea0fe3408f\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\5081b09b015ee07efbffb0e45386276f\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\1b6755dca2e79100ad29d6e2d530987d\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\768f462ac52ce85cecf6791378702af0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\1e4f550dd0892bc59be261384db2f817\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fdec70e637db8f220d049eb77aba34de\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\f4cc330b73c4bc9a668951a1d4e4cdab\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\902e8bca6caf7b680b24f99c875ed4d2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\c182b53a5680151895a2bce055db8d6c\AndroidManifest.xml:17:1-28:12
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.0.aar\686541f92918facceabc125547a7d57d\AndroidManifest.xml:1:70-7:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\cd45332fe73b9c06cb9e908325681b0a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b8dfe19c33ee919da1ff347d13a873ad\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e88abc7852c66fde6afb3c629b62251d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5498fe7dcac013999012a545692bfa67\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\1ca0a581d59561cc4eb02faf58c59a99\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\99f437a25e72337dc568c09bbca06fe9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\5f7734c05148069f49ff72439c661595\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\f499a5a9b8e15dbeed1a5003600b1ec7\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\785c6c859230cfffe3ac7ffee6b41302\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8a27a56cf0fefc5ffb600ecb2900f4ec\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bc86f8390891f0bb70f55c298cec717c\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f3ec636303c799460cdcaf1696890dab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\260263a1c29e0b6cfb7e27a7ce0f2ba4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\6c174a8c4b5dc642b370a45f11c0b5f7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\13f8da217d8fe6e250820c5fa103e30d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\33739e224f1513acf3d7801858978b72\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b478d05a7a3f2320a56f98b1802b9839\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\264e3487bc0ea749becca17805b9f666\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d9cf6fda217cc2660dbe8e20e2cc382d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\1149a2bba37ffe126d679ab29b249feb\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d9da1c27fa588e56c832f9fa3d9faf42\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\0a1fe5b47fe3e6f8ad8f13cdfbf0ab02\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b5fc65a601243afde1322783e546d2b9\AndroidManifest.xml:17:1-28:12
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.0.aar\914eea1aace8606df3d5ad98efb20e89\AndroidManifest.xml:1:70-7:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9054d227a95590e3c17edfdac7734bf3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\fe30526a3d0624d1cd950b079b399fa9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2dff9c197b985d8f9d334da807e21a40\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7c4fdb6dfd63f5244625b2ffe9fad921\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\05e69a99ac4488abe515bc3f57382f9d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\caddd71582c801238dbd6d96619b681f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\bfdef2546568ce31f7f53d04156417f6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1939874b85bc028d2c3d038f704a6bb2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f2854455ba9b616f10621e9c1130a2b3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\d760107a2fbfbcd976ebb4f04df3d4e9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d57aac4ea6934f88a99248c4333c55a3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\09fd061914fbb4b80b66931334ddbaf8\AndroidManifest.xml:17:1-22:12
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:2:1-56:12
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:2:1-56:12
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:2:1-56:12
@@ -48,14 +48,14 @@ INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifes
 		ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:5:5-79
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:6:5-67
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:24:5-67
 	android:name
 		ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
@@ -72,24 +72,24 @@ ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.x
 		ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:14:22-76
 application
 ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:16:5-54:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c5e28b07bb5fd95bff0eedea0fe3408f\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c5e28b07bb5fd95bff0eedea0fe3408f\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\5081b09b015ee07efbffb0e45386276f\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\5081b09b015ee07efbffb0e45386276f\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\1b6755dca2e79100ad29d6e2d530987d\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\1b6755dca2e79100ad29d6e2d530987d\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\768f462ac52ce85cecf6791378702af0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\768f462ac52ce85cecf6791378702af0\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\1e4f550dd0892bc59be261384db2f817\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\1e4f550dd0892bc59be261384db2f817\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fdec70e637db8f220d049eb77aba34de\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fdec70e637db8f220d049eb77aba34de\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\c182b53a5680151895a2bce055db8d6c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\c182b53a5680151895a2bce055db8d6c\AndroidManifest.xml:22:5-26:19
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.0.aar\686541f92918facceabc125547a7d57d\AndroidManifest.xml:5:5-19
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.0.aar\686541f92918facceabc125547a7d57d\AndroidManifest.xml:5:5-19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\13f8da217d8fe6e250820c5fa103e30d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\13f8da217d8fe6e250820c5fa103e30d\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\33739e224f1513acf3d7801858978b72\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\33739e224f1513acf3d7801858978b72\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b478d05a7a3f2320a56f98b1802b9839\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b478d05a7a3f2320a56f98b1802b9839\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\264e3487bc0ea749becca17805b9f666\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\264e3487bc0ea749becca17805b9f666\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d9cf6fda217cc2660dbe8e20e2cc382d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d9cf6fda217cc2660dbe8e20e2cc382d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\1149a2bba37ffe126d679ab29b249feb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\1149a2bba37ffe126d679ab29b249feb\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b5fc65a601243afde1322783e546d2b9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b5fc65a601243afde1322783e546d2b9\AndroidManifest.xml:22:5-26:19
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.0.aar\914eea1aace8606df3d5ad98efb20e89\AndroidManifest.xml:5:5-19
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.0.aar\914eea1aace8606df3d5ad98efb20e89\AndroidManifest.xml:5:5-19
 	android:supportsRtl
 		ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml:21:9-35
 	android:label
@@ -150,56 +150,56 @@ uses-sdk
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\1c56777d0f4f4a8431485f81c6073c85\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\1c56777d0f4f4a8431485f81c6073c85\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\314b047ba668a9eab40eebb1204a4fc3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\314b047ba668a9eab40eebb1204a4fc3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c5e28b07bb5fd95bff0eedea0fe3408f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\c5e28b07bb5fd95bff0eedea0fe3408f\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\5081b09b015ee07efbffb0e45386276f\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\5081b09b015ee07efbffb0e45386276f\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\1b6755dca2e79100ad29d6e2d530987d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\1b6755dca2e79100ad29d6e2d530987d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\768f462ac52ce85cecf6791378702af0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\768f462ac52ce85cecf6791378702af0\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\1e4f550dd0892bc59be261384db2f817\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\1e4f550dd0892bc59be261384db2f817\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fdec70e637db8f220d049eb77aba34de\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fdec70e637db8f220d049eb77aba34de\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\f4cc330b73c4bc9a668951a1d4e4cdab\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\f4cc330b73c4bc9a668951a1d4e4cdab\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\902e8bca6caf7b680b24f99c875ed4d2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\902e8bca6caf7b680b24f99c875ed4d2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\c182b53a5680151895a2bce055db8d6c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\c182b53a5680151895a2bce055db8d6c\AndroidManifest.xml:20:5-44
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.0.aar\686541f92918facceabc125547a7d57d\AndroidManifest.xml:3:5-72
-MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.0.aar\686541f92918facceabc125547a7d57d\AndroidManifest.xml:3:5-72
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\cd45332fe73b9c06cb9e908325681b0a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\cd45332fe73b9c06cb9e908325681b0a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b8dfe19c33ee919da1ff347d13a873ad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b8dfe19c33ee919da1ff347d13a873ad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e88abc7852c66fde6afb3c629b62251d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\e88abc7852c66fde6afb3c629b62251d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5498fe7dcac013999012a545692bfa67\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5498fe7dcac013999012a545692bfa67\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\1ca0a581d59561cc4eb02faf58c59a99\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\1ca0a581d59561cc4eb02faf58c59a99\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\99f437a25e72337dc568c09bbca06fe9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\99f437a25e72337dc568c09bbca06fe9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\5f7734c05148069f49ff72439c661595\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\5f7734c05148069f49ff72439c661595\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\f499a5a9b8e15dbeed1a5003600b1ec7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\f499a5a9b8e15dbeed1a5003600b1ec7\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\785c6c859230cfffe3ac7ffee6b41302\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\785c6c859230cfffe3ac7ffee6b41302\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8a27a56cf0fefc5ffb600ecb2900f4ec\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8a27a56cf0fefc5ffb600ecb2900f4ec\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bc86f8390891f0bb70f55c298cec717c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bc86f8390891f0bb70f55c298cec717c\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f3ec636303c799460cdcaf1696890dab\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f3ec636303c799460cdcaf1696890dab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\260263a1c29e0b6cfb7e27a7ce0f2ba4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\260263a1c29e0b6cfb7e27a7ce0f2ba4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\6c174a8c4b5dc642b370a45f11c0b5f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\6c174a8c4b5dc642b370a45f11c0b5f7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\13f8da217d8fe6e250820c5fa103e30d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\13f8da217d8fe6e250820c5fa103e30d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\33739e224f1513acf3d7801858978b72\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\33739e224f1513acf3d7801858978b72\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b478d05a7a3f2320a56f98b1802b9839\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b478d05a7a3f2320a56f98b1802b9839\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\264e3487bc0ea749becca17805b9f666\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\264e3487bc0ea749becca17805b9f666\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d9cf6fda217cc2660dbe8e20e2cc382d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\d9cf6fda217cc2660dbe8e20e2cc382d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\1149a2bba37ffe126d679ab29b249feb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\1149a2bba37ffe126d679ab29b249feb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d9da1c27fa588e56c832f9fa3d9faf42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\d9da1c27fa588e56c832f9fa3d9faf42\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\0a1fe5b47fe3e6f8ad8f13cdfbf0ab02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\0a1fe5b47fe3e6f8ad8f13cdfbf0ab02\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b5fc65a601243afde1322783e546d2b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b5fc65a601243afde1322783e546d2b9\AndroidManifest.xml:20:5-44
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.0.aar\914eea1aace8606df3d5ad98efb20e89\AndroidManifest.xml:3:5-72
+MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\library-aar-1.0.0.aar\914eea1aace8606df3d5ad98efb20e89\AndroidManifest.xml:3:5-72
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9054d227a95590e3c17edfdac7734bf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\9054d227a95590e3c17edfdac7734bf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\fe30526a3d0624d1cd950b079b399fa9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\fe30526a3d0624d1cd950b079b399fa9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2dff9c197b985d8f9d334da807e21a40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\2dff9c197b985d8f9d334da807e21a40\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7c4fdb6dfd63f5244625b2ffe9fad921\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\7c4fdb6dfd63f5244625b2ffe9fad921\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\05e69a99ac4488abe515bc3f57382f9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\05e69a99ac4488abe515bc3f57382f9d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\caddd71582c801238dbd6d96619b681f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\caddd71582c801238dbd6d96619b681f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\bfdef2546568ce31f7f53d04156417f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\bfdef2546568ce31f7f53d04156417f6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1939874b85bc028d2c3d038f704a6bb2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\1939874b85bc028d2c3d038f704a6bb2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f2854455ba9b616f10621e9c1130a2b3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\f2854455ba9b616f10621e9c1130a2b3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\d760107a2fbfbcd976ebb4f04df3d4e9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\d760107a2fbfbcd976ebb4f04df3d4e9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d57aac4ea6934f88a99248c4333c55a3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d57aac4ea6934f88a99248c4333c55a3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\09fd061914fbb4b80b66931334ddbaf8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\09fd061914fbb4b80b66931334ddbaf8\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -211,28 +211,28 @@ INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifes
 		ADDED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Shaikh Aquib\Downloads\kallan\app\src\main\AndroidManifest.xml
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:26:5-28:35
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:27:9-41
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:27:9-41
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\80c35a312699697e54215e7386ab9fcd\AndroidManifest.xml:28:9-32
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\cf3357a328752ca45df2b930186911ae\AndroidManifest.xml:28:9-32
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\1b6755dca2e79100ad29d6e2d530987d\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b478d05a7a3f2320a56f98b1802b9839\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\1b6755dca2e79100ad29d6e2d530987d\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b478d05a7a3f2320a56f98b1802b9839\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\1b6755dca2e79100ad29d6e2d530987d\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b478d05a7a3f2320a56f98b1802b9839\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\1b6755dca2e79100ad29d6e2d530987d\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\b478d05a7a3f2320a56f98b1802b9839\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fdec70e637db8f220d049eb77aba34de\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\1149a2bba37ffe126d679ab29b249feb\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fdec70e637db8f220d049eb77aba34de\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\1149a2bba37ffe126d679ab29b249feb\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\fdec70e637db8f220d049eb77aba34de\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\1149a2bba37ffe126d679ab29b249feb\AndroidManifest.xml:24:13-58
 meta-data#android.support.VERSION
-ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\c182b53a5680151895a2bce055db8d6c\AndroidManifest.xml:23:9-25:38
+ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b5fc65a601243afde1322783e546d2b9\AndroidManifest.xml:23:9-25:38
 	android:value
-		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\c182b53a5680151895a2bce055db8d6c\AndroidManifest.xml:25:13-35
+		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b5fc65a601243afde1322783e546d2b9\AndroidManifest.xml:25:13-35
 	android:name
-		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\c182b53a5680151895a2bce055db8d6c\AndroidManifest.xml:24:13-51
+		ADDED from [com.android.support:cardview-v7:26.1.0] C:\Users\Shaikh Aquib\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\b5fc65a601243afde1322783e546d2b9\AndroidManifest.xml:24:13-51

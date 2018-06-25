@@ -20,6 +20,8 @@ public class Global {
     public static String carregno  = null;
     public static String fueltype = null;
     public static String carno    = null;
+    public static String Sessionid = null;
+
     public static int notificationcount = 0;
 
     public static void hideKeyboard(Activity activity) {

@@ -27,12 +27,20 @@
 
 
 
-                <ImageView
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/catviewPager"
+                    android:layout_width="wrap_content"
+                    android:background="@android:color/white"
+                    android:layout_margin="10dp"
+                    android:layout_height="150dp"/>
+
+                <LinearLayout
+                    android:id="@+id/catSliderDots"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical|center_horizontal"
                     android:layout_width="match_parent"
-                    android:layout_height="180dp"
-                    android:background="@android:color/black"
-                    android:id="@+id/campaignimage"
-                    android:src="@drawable/banner"/>
+                    android:layout_height="wrap_content"/>
+
 
 
                 <LinearLayout
@@ -51,16 +59,15 @@
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Kolkata Knight Riders"
                             android:textSize="@dimen/activity_vertical_margin"
                             android:textColor="@android:color/black"
-                            android:id="@+id/campaignName"/>
+                            android:id="@+id/detailcampaignName"/>
 
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="Start Date : 5 April 2018"
+                            android:id="@+id/strDate"
                             />
 
                     </LinearLayout>
@@ -105,7 +112,7 @@
                             android:layout_gravity="left"
                             android:textSize="14dp"
                             android:gravity="center"
-                            android:text="5 April 2018"/>
+                            android:id="@+id/prgstrDate" />
 
                     </LinearLayout>
                     <LinearLayout
@@ -130,7 +137,8 @@
                             android:layout_gravity="right"
                             android:textSize="14dp"
                             android:gravity="center"
-                            android:text="5 April 2018"/>
+                            android:id="@+id/prgendDate"
+                            />
 
                     </LinearLayout>
 
@@ -161,8 +169,8 @@
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/activity_vertical_margin"
                     android:layout_marginTop="4dp"
-                    android:text="You can earn upto ₹ 5000 for this campaign"
                     android:textColor="@android:color/tertiary_text_dark"
+                    android:id="@+id/detailPurpose"
                     android:layout_marginLeft="@dimen/activity_vertical_margin"/>
 
             </LinearLayout>

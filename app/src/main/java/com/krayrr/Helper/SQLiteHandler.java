@@ -33,6 +33,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     private static final String KEY_CARREGNO = "car_registration_no";
     private static final String KEY_CARFUELTYPE = "fuel_type";
     private static final String KEY_CREATED_AT = "created_at";
+    private static final String KEY_SESSIONID = "sessionid";
     private static final String KEY_UN = "username";
 
 
@@ -45,7 +46,7 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         String CREATE_LOGIN_TABLE = "CREATE TABLE " + TABLE_USER + "("
-                + KEY_ID + " INTEGER PRIMARY KEY," + KEY_UID + " TEXT,"+ KEY_LOGINTYPE + " TEXT,"
+                + KEY_ID + " INTEGER PRIMARY KEY," + KEY_UID + " TEXT," + KEY_SESSIONID + " TEXT,"+ KEY_LOGINTYPE + " TEXT,"
                 + KEY_EMAIL + " TEXT UNIQUE," + KEY_MOBILE + " TEXT,"+ KEY_UN + " TEXT,"
                 + KEY_CARREGNO + " TEXT UNIQUE," + KEY_CARFUELTYPE + " TEXT,"
                 + KEY_CARNO + " TEXT," + KEY_CREATED_AT + " TEXT" + ")";
@@ -69,19 +70,20 @@ public class SQLiteHandler extends SQLiteOpenHelper {
     /**
      * Storing user details in database
      * */
-    public void addUser(String UserName, String uid, String login_type, String email, String mobile, String car_registration_no , String fuel_type ,String car_no,String registration_year) {
+    public void addUser(String UserName, String uid, String login_type, String email, String mobile, String car_registration_no , String fuel_type ,String car_no,String registration_year,String sessionid) {
         SQLiteDatabase db = this.getWritableDatabase();
 
         ContentValues values = new ContentValues();
-        values.put(KEY_UN, UserName); // USER ID
+        values.put(KEY_UN, UserName); // USER name
         values.put(KEY_UID, uid); // USER ID
-        values.put(KEY_LOGINTYPE, login_type); // AGENTID
+        values.put(KEY_LOGINTYPE, login_type); // logintype
         values.put(KEY_EMAIL, email); // Email
         values.put(KEY_MOBILE, mobile); // MOBILE
-        values.put(KEY_CARREGNO, car_registration_no); // TOKEN At
-        values.put(KEY_CARFUELTYPE, fuel_type); // Created At
-        values.put(KEY_CARNO, car_no); // TOKEN At
-        values.put(KEY_CREATED_AT, registration_year); // Created At
+        values.put(KEY_CARREGNO, car_registration_no); // car reg no
+        values.put(KEY_CARFUELTYPE, fuel_type); // fuel_type
+        values.put(KEY_CARNO, car_no); // car_no
+        values.put(KEY_CREATED_AT, registration_year); // registration_year
+        values.put(KEY_SESSIONID, sessionid); //  sessionid
 
         // Inserting Row
         long id = db.insert(TABLE_USER, null, values);
@@ -106,14 +108,17 @@ public class SQLiteHandler extends SQLiteOpenHelper {
         if (cursor.getCount() > 0) {
           //  user.put("id", cursor.getString(1));
             user.put("uid", cursor.getString(1));
-            user.put("ltype", cursor.getString(2));
-            user.put("email", cursor.getString(3));
-            user.put("mobile", cursor.getString(4));
-            user.put("username", cursor.getString(5));
-            user.put("carregno", cursor.getString(6));
-            user.put("fueltype", cursor.getString(7));
-            user.put("carno", cursor.getString(8));
-            user.put("created_at", cursor.getString(9));
+            user.put("sessionid", cursor.getString(2));
+            user.put("ltype", cursor.getString(3));
+            user.put("email", cursor.getString(4));
+            user.put("mobile", cursor.getString(5));
+            user.put("username", cursor.getString(6));
+            user.put("carregno", cursor.getString(7));
+            user.put("fueltype", cursor.getString(8));
+            user.put("carno", cursor.getString(9));
+            user.put("created_at", cursor.getString(10));
+
+
         }
         cursor.close();
         db.close();

@@ -179,7 +179,8 @@ public class MainActivity extends AppCompatActivity
         Log.d("VAr",Global.fueltype);
         Global.carno    = user.get("carno");
         Log.d("VAr",Global.carno);
-
+        Global.Sessionid    = user.get("sessionid");
+        Log.d("VAr",Global.Sessionid);
     }
 
 }

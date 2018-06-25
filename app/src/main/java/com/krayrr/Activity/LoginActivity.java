@@ -427,7 +427,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                                     jsonObject.getString("login_type"), jsonObject.getString("email"),
                                     jsonObject.getString("mobile_number"),jsonObject.getString("car_registration_no"),
                                     jsonObject.getString("fuel_type"),  jsonObject.getString("car_no"),
-                                    jsonObject.getString("registration_year")
+                                    jsonObject.getString("registration_year"),jsonObject.getString("session_id")
                             );
                         session.setLogin(true);
                         startActivity(new Intent(getApplicationContext(),MainActivity.class));
