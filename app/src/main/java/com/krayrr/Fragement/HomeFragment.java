@@ -23,6 +23,7 @@ import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
+import com.bumptech.glide.Glide;
 import com.krayrr.Activity.Campaigndetail;
 import com.krayrr.Activity.LoginActivity;
 import com.krayrr.Global;
@@ -100,12 +101,12 @@ public class HomeFragment extends Fragment {
 
             @Override
             public void onResponse(String response) {
-                response = "{\"campaign_data\":[{\"campaign_id\":\"1\",\"client_id\":\"1\",\"campaign_name\":\"Campaign Demo\",\"camp_start_date\":\"2018-07-01\",\"camp_end_date\":\"2018-07-30\",\"campaign_purpose\":\"Test Campaign\",\"status\":\"active\"},{\"campaign_id\":\"2\",\"client_id\":\"1\",\"campaign_name\":\"Campaign Demo 2\",\"camp_start_date\":\"2018-08-01\",\"camp_end_date\":\"2018-08-30\",\"campaign_purpose\":\"Test Campaign 2\",\"status\":\"active\"}],\"campaign_images\":[{\"camp_img_id\":\"1\",\"campaign_id\":\"1\",\"img_name\":\"1_1_5y8ES_0.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_1_5y8ES_0.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"2\",\"campaign_id\":\"1\",\"img_name\":\"1_1_5y8ES_1.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_1_5y8ES_1.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"3\",\"campaign_id\":\"2\",\"img_name\":\"1_2_NdeRp_0.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_2_NdeRp_0.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"4\",\"campaign_id\":\"2\",\"img_name\":\"1_2_NdeRp_1.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_2_NdeRp_1.jpg\",\"status\":\"active\"}]}";
+                //response = "{\"campaign_data\":[{\"campaign_id\":\"1\",\"client_id\":\"1\",\"campaign_name\":\"Campaign Demo\",\"camp_start_date\":\"2018-07-01\",\"camp_end_date\":\"2018-07-30\",\"campaign_purpose\":\"Test Campaign\",\"status\":\"active\"},{\"campaign_id\":\"2\",\"client_id\":\"1\",\"campaign_name\":\"Campaign Demo 2\",\"camp_start_date\":\"2018-08-01\",\"camp_end_date\":\"2018-08-30\",\"campaign_purpose\":\"Test Campaign 2\",\"status\":\"active\"}],\"campaign_images\":[{\"camp_img_id\":\"1\",\"campaign_id\":\"1\",\"img_name\":\"1_1_5y8ES_0.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_1_5y8ES_0.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"2\",\"campaign_id\":\"1\",\"img_name\":\"1_1_5y8ES_1.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_1_5y8ES_1.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"3\",\"campaign_id\":\"2\",\"img_name\":\"1_2_NdeRp_0.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_2_NdeRp_0.jpg\",\"status\":\"active\"},{\"camp_img_id\":\"4\",\"campaign_id\":\"2\",\"img_name\":\"1_2_NdeRp_1.jpg\",\"image_link\":\"http:\\/\\/dev.krayrr.com\\/uploads\\/campaign_media\\/1\\/1_2_NdeRp_1.jpg\",\"status\":\"active\"}]}";
                 if (!response.equals("\"Session Not Login\"")){
                     try {
-                        JSONObject resp = new JSONObject(response);
+                       // JSONObject resp = new JSONObject(response);
                        // JSONObject object =resp.getJSONObject("campaigns");
-                        JSONArray jsonArray=resp.getJSONArray("campaign_data");
+                        JSONArray jsonArray=new JSONArray(response);
                         for (int i = 0 ; i < jsonArray.length() ; i++){
                             JSONObject jsonObject =jsonArray.getJSONObject(i);
                             CampaignModel model=new CampaignModel();
@@ -117,6 +118,7 @@ public class HomeFragment extends Fragment {
                             model.Campenddate = jsonObject.getString("camp_end_date");
                             model.purpose = jsonObject.getString("campaign_purpose");
                             model.status = jsonObject.getString("status");
+                            model.image_link=jsonObject.getString("image_link");
 
                            /* JSONArray imgArray = object.getJSONArray("campaign_images");
                             for (int y = 0 ; y < imgArray.length() ; y++){
@@ -172,7 +174,9 @@ public class HomeFragment extends Fragment {
                         holder1.startDate.setText(current.campstartdate);
                         holder1.purpose.setText(current.purpose);
 
-                        holder1.image.setImageResource(images[position]);
+                        Glide.with(getActivity()).load(current.image_link).into(holder1.image);
+
+                        // holder1.image.setImageResource(images[position]);
                         holder1.image.setOnClickListener(new View.OnClickListener() {
                             @Override
                             public void onClick(View view) {

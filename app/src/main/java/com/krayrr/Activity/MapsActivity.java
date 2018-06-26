@@ -1,12 +1,18 @@
 package com.krayrr.Activity;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
+import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.os.Build;
 import android.os.Looper;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
@@ -22,6 +28,7 @@ import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptor;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
@@ -127,7 +134,22 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         LatLng latLng = new LatLng(currentLocation.getLatitude(), currentLocation.getLongitude());
         if (currentLocationMarker != null)
             currentLocationMarker.remove();
-        currentLocationMarker = googleMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.defaultMarker()).position(latLng));
+       /* Context context = getApplicationContext();
+        Drawable drawable = context.getResources().getDrawable(R.drawable.ic_green_car_marker);
+// convert drawable to bitmap
+        Bitmap bitmap = ((BitmapDrawable)drawable).getBitmap();
+// convert bitmap to drawable
+        Drawable d = new BitmapDrawable(bitmap);
+        BitmapDescriptor icon = BitmapDescriptorFactory.fromResource(R.drawable.ic_green_car_marker);*/
+
+        Drawable vectorDrawable = ResourcesCompat.getDrawable(getResources(), R.drawable.ic_green_car_marker, null);
+        Bitmap bit = Bitmap.createBitmap(vectorDrawable.getIntrinsicWidth(),
+                vectorDrawable.getIntrinsicHeight(), Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bit);
+        vectorDrawable.setBounds(0, 0, canvas.getWidth(), canvas.getHeight());
+        vectorDrawable.draw(canvas);
+
+        currentLocationMarker = googleMap.addMarker(new MarkerOptions().icon( BitmapDescriptorFactory.fromBitmap(bit)).position(latLng));
     }
 
     @Override
