@@ -8,15 +8,15 @@ package android.support.mediacompat;
 
 public final class R {
     public static final class attr {
-        public static final int font = 0x7f0300ae;
-        public static final int fontProviderAuthority = 0x7f0300b0;
-        public static final int fontProviderCerts = 0x7f0300b1;
-        public static final int fontProviderFetchStrategy = 0x7f0300b2;
-        public static final int fontProviderFetchTimeout = 0x7f0300b3;
-        public static final int fontProviderPackage = 0x7f0300b4;
-        public static final int fontProviderQuery = 0x7f0300b5;
-        public static final int fontStyle = 0x7f0300b6;
-        public static final int fontWeight = 0x7f0300b7;
+        public static final int font = 0x7f0300af;
+        public static final int fontProviderAuthority = 0x7f0300b1;
+        public static final int fontProviderCerts = 0x7f0300b2;
+        public static final int fontProviderFetchStrategy = 0x7f0300b3;
+        public static final int fontProviderFetchTimeout = 0x7f0300b4;
+        public static final int fontProviderPackage = 0x7f0300b5;
+        public static final int fontProviderQuery = 0x7f0300b6;
+        public static final int fontStyle = 0x7f0300b7;
+        public static final int fontWeight = 0x7f0300b8;
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs = 0x7f040000;
@@ -121,7 +121,7 @@ public final class R {
         public static final int notification_template_part_time = 0x7f0a0044;
     }
     public static final class string {
-        public static final int status_bar_notification_info_overflow = 0x7f0d0051;
+        public static final int status_bar_notification_info_overflow = 0x7f0d0059;
     }
     public static final class style {
         public static final int TextAppearance_Compat_Notification = 0x7f0e00f4;
@@ -138,14 +138,14 @@ public final class R {
         public static final int Widget_Compat_NotificationActionText = 0x7f0e0173;
     }
     public static final class styleable {
-        public static final int[] FontFamily = { 0x7f0300b0, 0x7f0300b1, 0x7f0300b2, 0x7f0300b3, 0x7f0300b4, 0x7f0300b5 };
+        public static final int[] FontFamily = { 0x7f0300b1, 0x7f0300b2, 0x7f0300b3, 0x7f0300b4, 0x7f0300b5, 0x7f0300b6 };
         public static final int FontFamily_fontProviderAuthority = 0;
         public static final int FontFamily_fontProviderCerts = 1;
         public static final int FontFamily_fontProviderFetchStrategy = 2;
         public static final int FontFamily_fontProviderFetchTimeout = 3;
         public static final int FontFamily_fontProviderPackage = 4;
         public static final int FontFamily_fontProviderQuery = 5;
-        public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f0300ae, 0x7f0300b6, 0x7f0300b7 };
+        public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f0300af, 0x7f0300b7, 0x7f0300b8 };
         public static final int FontFamilyFont_android_font = 0;
         public static final int FontFamilyFont_android_fontWeight = 1;
         public static final int FontFamilyFont_android_fontStyle = 2;
