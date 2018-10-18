@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\kallan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\Shaikh Aquib\\Desktop\\kallan_map\\kallan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DEALWITHUSMAIL\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\6a60b2db8c8bb3eeed76551e40b7f1a3\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Shaikh Aquib\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\7050fbd856f0698815bfa7cd04358328\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DEALWITHUSMAIL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea2740b136123087b43f9ba14e9ff403\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Shaikh Aquib\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\97cc2a9672afe23cb6fd08206c463e4a\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

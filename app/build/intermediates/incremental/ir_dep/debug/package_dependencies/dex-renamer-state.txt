@@ -1,0 +1,4 @@
+#Thu Aug 30 16:41:43 IST 2018
+base.0=E\:\\kallan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+path.0=classes.dex
+renamed.0=classes.dex

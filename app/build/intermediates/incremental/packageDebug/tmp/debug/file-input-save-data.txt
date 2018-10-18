@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Sep 02 17:05:39 IST 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Shaikh Aquib\\Desktop\\kallan_map\\kallan\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

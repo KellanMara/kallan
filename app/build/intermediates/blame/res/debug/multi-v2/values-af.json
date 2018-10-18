@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\kallan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
+            "outputFile": "C:\\Users\\Shaikh Aquib\\Desktop\\kallan_map\\kallan\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-af\\values-af.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DEALWITHUSMAIL\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\ea2740b136123087b43f9ba14e9ff403\\res\\values-af\\values-af.xml",
+                    "source": "C:\\Users\\Shaikh Aquib\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\97cc2a9672afe23cb6fd08206c463e4a\\res\\values-af\\values-af.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DEALWITHUSMAIL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\10c672007ce0cb4bfd2d636a0e2cf356\\res\\values-af\\values.xml",
+                    "source": "C:\\Users\\Shaikh Aquib\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\4c1c1344009ca0398eac873b6b189bf4\\res\\values-af\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,24 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DEALWITHUSMAIL\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\9c533993d09f820b61645d2dea3adb14\\res\\values-af\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "201",
-                        "endOffsets": "448"
-                    },
-                    "to": {
-                        "startLines": "27",
-                        "startColumns": "4",
-                        "startOffsets": "2978",
-                        "endColumns": "201",
-                        "endOffsets": "3175"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DEALWITHUSMAIL\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\f98c57b2c984f2688555e0acdf4393ef\\res\\values-af\\values-af.xml",
+                    "source": "C:\\Users\\Shaikh Aquib\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\08c4ab854dd6494f2cbaff8d33a18597\\res\\values-af\\values-af.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -69,6 +52,23 @@
                         "startOffsets": "4591",
                         "endColumns": "100",
                         "endOffsets": "4687"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Shaikh Aquib\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\9399b2fadc2a75f6d36637989d9e7640\\res\\values-af\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "201",
+                        "endOffsets": "448"
+                    },
+                    "to": {
+                        "startLines": "27",
+                        "startColumns": "4",
+                        "startOffsets": "2978",
+                        "endColumns": "201",
+                        "endOffsets": "3175"
                     }
                 }
             ]

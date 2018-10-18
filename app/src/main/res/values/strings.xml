@@ -40,5 +40,6 @@
     <string name="dashboard_fragment">Hello Dashboard fragment</string>
     <string name="home_fragment">Hello Home fragment</string>
     <string name="notifications_fragment">Hello notifications fragment</string>
+    <string name="directionsApiKey">AIzaSyBG_eCPrTbSVI7ytfXc5o5Etovl3VAYB0A</string>
 
 </resources>
